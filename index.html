@@ -12,62 +12,174 @@
     <script src="index.js"></script>
   </head>
   <body>
-    <section id="landing">
-      <nav>
-        <div class="row nav__row">
-          <div class="nav__logo">
-            <img
-              class="nav__logo--img"
-              src="./assets-treact/logo.2c489fc453a1783cbadacf914efa3df6.svg"
-              alt=""
-            />
-          <div class="nav__logo--title"><span class="blue">Treact</span></div>
-          </div>
-          <ul class="nav__links">
-            <li class="nav__link">
-              <a href="#" class="nav__link--anchor link__hover-effect link__hover-effect--black">About</a>
-            </li>
-            <li class="nav__link">
-              <a href="#" class="nav__link--anchor link__hover-effect link__hover-effect--black">Blog</a>
-            </li>
-            <li class="nav__link">
-              <a href="#" class="nav__link--anchor link__hover-effect link__hover-effect--black">Pricing</a>
-            </li>
-            <li class="nav__link">
-              <a href="#" class="nav__link--anchor link__hover-effect link__hover-effect--black">Contact Us</a>
-            </li>
-            <li class="nav__link">
-              <a href="#" class="nav__link--anchor link__hover-effect link__hover-effect--black">Login</a>
-            </li>
-            <li class="nav__link">
-              <a href="#" class="nav__link--anchor nav__link--anchor--primary">Sign Up</a>
-            </li>
-          </ul>
+   <section id="landing">
+     <nav>
+      <div class="nav__row">
+        <div class="nav__logo">
+          <img class="nav__logo--img" src="./assets-treact/logo.2c489fc453a1783cbadacf914efa3df6.svg" alt="">
+          <div class="nav__logo--title">Treact</div>
         </div>
-      </nav>
-      <header>
-        <div class="header__container">
-          <div class="row">
-            <div class="header__description">
-              <h1>
-                Beautiful React Templates <span class="text-purple"> for you</span>
-              </h1>
-              <p class="header__description--para">Our templates are easy to setup, understand and customize. Fully modular components with a variety of pages and components.</p>
-              <div class="header__email">
-                <input type="text" class="header__email--input" placeholder="Your E-mail Address" />
-                <button class="header__email--btn">Get Started</button>
-                <p class="header__customers--tite">
-                  Our Trusted Customers
-                </p>
-                <img class="header__customers" src="./assets-treact/customers-logo-strip.680ac7c2e8ae28161d2c.png" alt="">
+         <div class="nav__links">
+          <a href="#About" class="nav__link">About</a>
+          <a href="#Blog" class="nav__link">Blog</a>
+          <a href="#Pricing" class="nav__link">Pricing</a>
+          <a href="#ContactUs" class="nav__link">Contact Us</a>
+          <a href="#Login" class="nav__link">Login</a>
+          <a href="#SignUp" class="nav__link--primary">Sign Up</a>
+         </div>
+      </div>
+     </nav>
+     <header>
+      <div class="header__content">
+        <h1 class="header__title">Beautiful React Templates <span class="purple">for you</span></h1>
+        <p class="header__subtitle">Your templates are easy to setup, understand and customize. Fully modular components with a variety of pages and components.</p>
+        <div class="header__email"><input type="email" placeholder="Enter your email" /><button class="header__email--cta">Subscribe</button></div>
+        <a href="#SignUp" class="header__cta">Get Started</a>
+        <img class="header__image" src="./assets-treact/customers-logo-strip.680ac7c2e8ae28161d2c.png" alt="Header Image" />
+      </div>
+      <figure>
+        <img class="header__image" src="./assets-treact/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg" alt="Header Image" />
+      </figure>
+    </header>
+  </section>
+
+  <main>
+    <section id="Features">
+      <div class="container">
+        <div class="row__narrow">
+           <h4 class="section__title">Features</h4>
+        <h2 class="section__subtitle">We Have Amazing <span class="purple"></span> Service.</h2>
+        <div class="section__para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, sit iure quisquam omnis soluta vel vitae necessitatibus deserunt commodi architecto quis possimus praesentium fugiat tempora dicta qui, iste repellat earum!</div>
+
+      <div class="features">
+        <div class="feature">
+          <div class="feature__row">
+            <figure class="feature__img--wrapper"><img src="./assets-treact/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg" alt="Feature One Icon" />
+            </figure>
+          <div class="feature__text">
+            <h2 class="feature__title">Secure</h2>
+            <p class="feature__para">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
+          </div>
+        </div>
+      </div>
+      <div class="feature">
+        <div class="feature__row">
+          <figure class="feature__img--wrapper"><img src="./assets-treact/support-icon.f9253ffa8cb6ffde5bbaa05eb5136375.svg" alt="Feature Two Icon" /></figure>
+          <div class="feature__text">
+            <h2 class="feature__title">24/7 Support</h2>
+            <p class="feature__para">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
+          </div>
+        </div>
+      </div>
+          <div class="feature">
+            <div class="feature__row">
+              <figure class="feature__img--wrapper"><img src="./assets-treact/customize-icon.367468c90fd796009b97fbfba67b2c6a.svg" alt="Feature Three Icon" /></figure>
+              <div class="feature__text">
+              <h2 class="feature__title">Customizable</h2>
+              <p class="feature__para">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
               </div>
             </div>
-            <figure class="header__img--wrapper">
-              <img class="header__img" src="./assets-treact/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg" alt="">
-            </figure>
           </div>
+          <div class="feature">
+            <div class="feature__row">
+              <figure class="feature__img--wrapper"><img src="./assets-treact/reliable-icon.1367510a8f0a1bec76dc425d25f92f43.svg" alt="Feature Four Icon" /></figure>
+              <div class="feature__text">
+              <h2 class="feature__title">Reliable</h2>
+              <p class="feature__para">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
+              </div>
+            </div>
+          </div>
+          <div class="feature">
+            <div class="feature__row">
+              <figure class="feature__img--wrapper"><img src="./assets-treact/fast-icon.dbb971a73d4805d2fc3bcdacdb55beba.svg" alt="Feature Five Icon" /></figure>
+              <div class="feature__text">
+              <h2 class="feature__title">Fast</h2>
+              <p class="feature__para">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
+              </div>
+            </div>
+          </div>
+          <div class="feature">
+            <div class="feature__row">
+              <figure class="feature__img--wrapper"><img src="./assets-treact/simple-icon.673b7e1750b2a4ef32907fc164828d00.svg" alt="Feature Six Icon" /></figure>
+              <div class="feature__text">
+              <h2 class="feature__title">Easy</h2>
+              <p class="feature__para">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
+              </div>
+            </div>
+          </div>
+          </div>
+       </div>
+    </div>
+</section>
+
+<section id="quality">
+  <div class="container">
+    <div class="row">
+      <div class="quality__description">
+        <div class="section__tag">Quality Work</div>
+        <h2 class="section__title">Designed & Developed by <span class="purple"> Professionals</span>
+        </h2>
+        <p class="section__para">This is a new section added to the page.</p>
+        <button class="btn">Learn More</button>
+        <figure class="quality__img--wrapper"><img class="quality__img" src="./assets-treact/hero-screenshot-1.40a097b525c2f8c9808e.png" alt="Quality Icon" />
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="steps">
+  <div class="container">
+    <div class="row">
+      <figure class="steps__img--wrapper"><img class="steps__img" src="./assets-treact/hero-screenshot-2.241aac1fbc66db29d873.png" alt="Steps Icon" />
+      </figure>
+       <div class="feature">
+            <div class="feature__row">
+              <figure class="feature__img--wrapper"><img src="./assets-treact/reliable-icon.1367510a8f0a1bec76dc425d25f92f43.svg" alt="Feature Four Icon" /></figure>
+              <svg viewBox="0 0 1280 1280" class="steps__grid" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <path id="line-of-balls" d="M55 33.5C44.5 37 35 47.6 32.8 58.3c-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM183 33.5c-15.1 5-25.3 21.6-22.2 36.2 2.5 11.9 13.6 23 25.4 25.5 19.4 4.1 39.5-14.2 37.5-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM311 33.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM439 33.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM567 33.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM695 33.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM823 33.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM951 33.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1079 33.5c-10.5 3.5-20 14.1-22.2 24.8-2.5 11.7 3.2 24.4 14.2 31.9 10.7 7.4 22.9 7.5 33.7.3 17.7-11.8 20.1-33.8 5.3-48.5-8.5-8.6-20.7-11.9-31-8.5zM1207 33.5c-10.5 3.5-20 14.1-22.2 24.8-2.5 11.7 3.2 24.4 14.2 31.9 10.7 7.4 22.9 7.5 33.7.3 17.7-11.8 20.1-33.8 5.3-48.5-8.5-8.6-20.7-11.9-31-8.5z"></path>
+                </defs>
+
+                <!-- Repeat the line 10 times with vertical spacing -->
+                <g fill="rgba(100, 21, 255, 0.15)">
+                  <use href="#line-of-balls" transform="translate(0, 0)"></use>
+                  <use href="#line-of-balls" transform="translate(0, 100)"></use>
+                  <use href="#line-of-balls" transform="translate(0, 200)"></use>
+                  <use href="#line-of-balls" transform="translate(0, 300)"></use>
+                  <use href="#line-of-balls" transform="translate(0, 400)"></use>
+                  <use href="#line-of-balls" transform="translate(0, 500)"></use>
+                  <use href="#line-of-balls" transform="translate(0, 600)"></use>
+                  <use href="#line-of-balls" transform="translate(0, 700)"></use>
+                  <use href="#line-of-balls" transform="translate(0, 800)"></use>
+                  <use href="#line-of-balls" transform="translate(0, 900)"></use>
+                </g>
+              </svg>
+      <div class="steps__description">
+        <div class="section__tag">Steps</div>
+        <h2 class="section__title">Easy to <span class="purple">Get Started</span></h2>
+        <p class="section__para">This section describes the steps we take to deliver quality work.</p>
+      <div class="step__list">
+        <div class="step">
+          <div class="step__number">01</div>
+          <div class="step__title">Sign Up</div>
         </div>
-      </header>
-    </section>
+        <div class="step">
+          <div class="step__number">02</div>
+          <div class="step__title">Choose a Plan</div>
+        </div>
+        <div class="step">
+          <div class="step__number">03</div>
+          <div class="step__title">Start Using</div>
+        </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+  
+  </main>
+  
   </body>
 </html>
