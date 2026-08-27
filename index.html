@@ -43,13 +43,13 @@
             modular components with a variety of pages and components.
           </p>
           <div class="header__email">
-            <input type="email" placeholder="Enter your email" /><button
+            <input type="email" class="header__email--input" placeholder="Enter your email" /><button
               class="header__email--cta"
             >
-              Subscribe
-            </button>
+              Get Started
+           </button>
           </div>
-          <a href="#SignUp" class="header__cta">Get Started</a>
+          <a href="#SignUp" class="header__cta">Our Trusted Customers</a>
           <img
             class="header__image"
             src="./assets-treact/customers-logo-strip.680ac7c2e8ae28161d2c.png"
@@ -68,13 +68,13 @@
 
     <main>
       <section id="Features">
-        <div class="container">
+        <div class="features__container">
           <div class="row__narrow">
-            <h4 class="section__title">Features</h4>
-            <h2 class="section__subtitle">
+            <h4 class="features__section--title">Features</h4>
+            <h2 class="features__section--subtitle">
               We Have Amazing <span class="purple">Service.</span> 
             </h2>
-            <div class="section__para">
+            <div class="features__section--para">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa,
               sit iure quisquam omnis soluta vel vitae necessitatibus deserunt
               commodi architecto quis possimus praesentium fugiat tempora dicta
@@ -190,33 +190,89 @@
       </section>
 
       <section id="quality">
-        <div class="container">
-          <div class="row">
+        <div class="quality__container">
+          <div class="quality__row">
             <div class="quality__description">
-              <div class="section__tag">Quality Work</div>
-              <h2 class="section__title">
+              <div class="quality__section--tag"><span class="purple">Quality Work</span></div>
+              <h2 class="quality__section--title">
                 Designed & Developed by
                 <span class="purple"> Professionals</span>
               </h2>
-              <p class="section__para">
-                This is a new section added to the page.
+              <p class="quality__section--para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quam cupiditate commodi qui excepturi laborum adipisci officiis, corporis possimus. Reiciendis?
               </p>
               <button class="btn">Learn More</button>
+               </div>
               <figure class="quality__img--wrapper">
                 <img
                   class="quality__img"
                   src="./assets-treact/hero-screenshot-1.40a097b525c2f8c9808e.png"
                   alt="Quality Icon"
                 />
+                <svg
+                  viewBox="0 0 1280 1280"
+                  class="quality__grid"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <defs>
+                    <path
+                      id="line-of-balls"
+                      d="M55 33.5C44.5 37 35 47.6 32.8 58.3c-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM183 33.5c-15.1 5-25.3 21.6-22.2 36.2 2.5 11.9 13.6 23 25.4 25.5 19.4 4.1 39.5-14.2 37.5-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM311 33.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM439 33.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM567 33.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM695 33.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM823 33.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM951 33.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1079 33.5c-10.5 3.5-20 14.1-22.2 24.8-2.5 11.7 3.2 24.4 14.2 31.9 10.7 7.4 22.9 7.5 33.7.3 17.7-11.8 20.1-33.8 5.3-48.5-8.5-8.6-20.7-11.9-31-8.5zM1207 33.5c-10.5 3.5-20 14.1-22.2 24.8-2.5 11.7 3.2 24.4 14.2 31.9 10.7 7.4 22.9 7.5 33.7.3 17.7-11.8 20.1-33.8 5.3-48.5-8.5-8.6-20.7-11.9-31-8.5z"
+                    ></path>
+                  </defs>
+
+                  <!-- Repeat the line 10 times with vertical spacing -->
+                  <g fill="rgba(100, 21, 255, 0.15)">
+                    <use
+                      href="#line-of-balls"
+                      transform="translate(0, 0)"
+                    ></use>
+                    <use
+                      href="#line-of-balls"
+                      transform="translate(0, 100)"
+                    ></use>
+                    <use
+                      href="#line-of-balls"
+                      transform="translate(0, 200)"
+                    ></use>
+                    <use
+                      href="#line-of-balls"
+                      transform="translate(0, 300)"
+                    ></use>
+                    <use
+                      href="#line-of-balls"
+                      transform="translate(0, 400)"
+                    ></use>
+                    <use
+                      href="#line-of-balls"
+                      transform="translate(0, 500)"
+                    ></use>
+                    <use
+                      href="#line-of-balls"
+                      transform="translate(0, 600)"
+                    ></use>
+                    <use
+                      href="#line-of-balls"
+                      transform="translate(0, 700)"
+                    ></use>
+                    <use
+                      href="#line-of-balls"
+                      transform="translate(0, 800)"
+                    ></use>
+                    <use
+                      href="#line-of-balls"
+                      transform="translate(0, 900)"
+                    ></use>
+                  </g>
+                </svg>
               </figure>
-            </div>
           </div>
         </div>
       </section>
 
       <section id="steps">
-        <div class="container">
-          <div class="row">
+        <div class="steps__container">
+          <div class="steps__row">
             <figure class="steps__img--wrapper">
               <img
                 class="steps__img"
@@ -289,8 +345,8 @@
                   </g>
                 </svg>
                 <div class="steps__description">
-                  <div class="section__tag">Steps</div>
-                  <h2 class="section__title">
+                  <div class="steps__section--tag">Steps</div>
+                  <h2 class="steps__section--title">
                     Easy to <span class="purple">Get Started</span>
                   </h2>
                   <div class="steps__list">
@@ -334,11 +390,11 @@
         <div class="container">
           <div class="row">
             <div class="values__description">
-              <div class="section__tag">Values</div>
-              <h2 class="section__title">
+              <div class="values__section--tag">Values</div>
+              <h2 class="values__section--title">
                 We Always Abide by Our <span class="purple">Principles</span>
               </h2>
-              <div class="section__para">
+              <div class="values__section--para">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -385,7 +441,7 @@
                   <div class="value__title">
                     <figure class="value__img--wrapper">
                       <img
-                        src="./assests-treact/innovation.svg"
+                        src="./assets-treact/innovation.svg"
                         alt="innovation"
                       />
                     </figure>
@@ -407,11 +463,11 @@
         </div>
         </section>
       <section class="pricing">
-        <div class="container">
-          <div class="row">
-            <div class="section__tag">Pricing</div>
-            <h2 class="section__title">Reasonable & Flexible<span> Plans.</span></h2>
-            <p class="section__para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="pricing__container">
+          <div class="pricing__row">
+            <div class="pricing__section--tag">Pricing</div>
+            <h2 class="pricing__section--title">Reasonable & Flexible<span> Plans.</span></h2>
+            <p class="pricing__section--para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <div class="plans">
                  <div class="plan">
                 <div class="plan__stripe"></div>
@@ -482,13 +538,13 @@
      </section>
 
      <section class="testimonials">
-       <div class="container">
-        <div class="row">
+       <div class="testimonials__container">
+        <div class="testimonials__row">
           <img src="./assets-treact/love-illustration.c759090fa833369ad6ffb6eb19cacb3e.svg" alt="Testimonial 1">
           <div class="testimonial__description">
-            <div class="section__tag">Testimonials</div>
-            <h2 class="section__title">Our Clients<span class="purple"> Love Us</span></h2>
-            <p class="section__para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam.</p>
+            <div class="testimonials__section--tag">Testimonials</div>
+            <h2 class="testimonials__section--title">Our Clients<span class="purple"> Love Us</span></h2>
+            <p class="testimonials__section--para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam.</p>
             <div class="testimonial">
               <div class="testimonial__rating">
                 <i class="fas fa-star" aria-hidden="true"></i>
@@ -522,8 +578,8 @@
      </section>
 
      <section class="start">
-       <div class="container">
-         <div class="row">
+       <div class="start__container">
+         <div class="start__row">
           <svg viewBox="0 0 600 600" class="start__blob--1">
               <g transform="translate(300,300)">
                 <path d="M153.6,-239C199.1,-209.8,236,-167.2,258.4,-118C280.9,-68.9,288.9,-13.1,281.2,40.4C273.5,93.9,250.1,145.2,214.7,186.1C179.3,226.9,131.9,257.4,80,272.6C28.2,287.8,-28.2,287.8,-80,272.6C-131.9,257.4,-179.3,226.9,-214.7,186.1C-250.1,145.2,-273.5,93.9,-281.2,40.4C-288.9,-13.1,-280.9,-68.9,-258.4,-118C-236,-167.2,-199.1,-209.8,-153.6,-239C-108.1,-268.3,-54.1,-284.1,0,-284.1C54.1,-284.1,108.1,-268.3,153.6,-239Z" fill="rgb(80,17,204)"></path>
@@ -534,8 +590,8 @@
                 <path d="M153.6,-239C199.1,-209.8,236,-167.2,258.4,-118C280.9,-68.9,288.9,-13.1,281.2,40.4C273.5,93.9,250.1,145.2,214.7,186.1C179.3,226.9,131.9,257.4,80,272.6C28.2,287.8,-28.2,287.8,-80,272.6C-131.9,257.4,-179.3,226.9,-214.7,186.1C-250.1,145.2,-273.5,93.9,-281.2,40.4C-288.9,-13.1,-280.9,-68.9,-258.4,-118C-236,-167.2,-199.1,-209.8,-153.6,-239C-108.1,-268.3,-54.1,-284.1,0,-284.1C54.1,-284.1,108.1,-268.3,153.6,-239Z" fill="rgb(80,17,204)"></path>
               </g>
             </svg>
-            <div class="start__container">
-              <div class="start__row">
+            <div class="start__content">
+              <div class="start__content--row">
                 <div class="start__title">Developers all over the world are happy</div>
                 <div class="start__buttons">
                   <button class="start__button btn">Get Started</button>
