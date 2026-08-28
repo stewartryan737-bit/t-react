@@ -453,6 +453,7 @@ img {
 .steps__img {
   width: 100%;
   border-radius: 4px;
+  z-index: 2;
 }
 
 .steps__list {
@@ -467,11 +468,16 @@ img {
 }
 
 .steps__grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  gap: 16px;
   position: absolute;
-  transform: translateX(-50%);
+  transform: translateX(50%) translateY(50%) scaleX(1) scaleY(1);
   opacity: 0.8;
   z-index: -10;
+  display: block;
+  width: 80px;
+  height: 80px;
+  --tw-text-opacity: 1;
+  color: rgba(100, 21, 255, var(--tw-text-opacity));
+  right: 0px;
+  bottom: 0px;
+  fill: rgb(100, 21, 255);
 }
