@@ -411,6 +411,12 @@ img {
   background-color: #4b0fcf;
 }
 
+/* STEPS */
+
+#steps {
+  padding: 0 32px;
+}
+
 .steps__container {
   display: flex;
   flex-direction: column;
@@ -451,9 +457,11 @@ img {
 }
 
 .steps__img {
+ z-index: 2;
+}
+
+img {
   width: 100%;
-  border-radius: 4px;
-  z-index: 2;
 }
 
 .steps__list {
@@ -464,7 +472,7 @@ img {
 .step {
   display: flex;
   align-items: flex-start;
-  gap: 16px;
+  margin-top: 32px;
 }
 
 .steps__grid {
@@ -480,4 +488,49 @@ img {
   right: 0px;
   bottom: 0px;
   fill: rgb(100, 21, 255);
+}
+
+.steps__section--tag {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.steps__section--title {
+  font-size: 48px;
+  font-weight: 900;
+  margin: 16px 0;
+  line-height: 1.5;
+  color: rgb(36, 62, 99);
+  letter-spacing: 0.025em;
+}
+
+.step__number {
+  font-size: 36px;
+  font-weight: 600;
+  color: #cbd5e0;
+  margin-right: 16px;
+}
+
+.step__description {
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+  max-width: 320px;
+}
+
+.step__title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #243e63;
+  line-height: 1;
+}
+
+.step__para {
+  font-size: 14px;
+  color: #718096;
+  line-height: 2;
+  font-weight: 500;
+  margin-top:12px;
 }
