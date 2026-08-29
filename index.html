@@ -377,8 +377,8 @@
         </div>
       </section>
       <section class="values">
-        <div class="container">
-          <div class="row">
+        <div class="values__container">
+          <div class="values__row">
             <div class="values__description">
               <div class="values__section--tag"><span class="purple">Values</span></div>
               <h2 class="values__section--title">
@@ -392,9 +392,9 @@
               </div>
               <div class="values__list">
                 <div class="value">
-                  <div class="value__title">
+                  <div class="value__title--wrapper">
                     <figure class="value__img--wrapper">
-                      <img
+                      <img class="value__img" 
                         src="./assets-treact/dollar-sign.svg"
                         alt="dollar sign"
                       />
@@ -404,33 +404,13 @@
                       We promise to offer you the best rate we can - at par with
                       the industry standard.
                     </p>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="rgba(39, 103, 73, 1)"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="value__img"
-                    >
-                      <line x1="12" y1="1" x2="12" y2="23"></line>
-                      <path
-                        d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"
-                      ></path>
-                    </svg>
-                    <p class="value__para">
-                      We promise to offer you the best rate we can - at par with
-                      the industry standard.
-                    </p>
+                  </div>
                   </div>
                 </div>
                 <div class="value">
                   <div class="value__title">
                     <figure class="value__img--wrapper">
-                      <img
+                      <img class="value__img"
                         src="./assets-treact/innovation.svg"
                         alt="innovation"
                       />
@@ -446,6 +426,7 @@
               <button class="btn">Learn More</button>
             </div>
             <img
+              class="values__img"
               src="./assets-treact/prototype-illustration.21bc4b3f612a2f257c3d361067582485.svg"
               alt="values image"
             />
