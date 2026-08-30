@@ -542,7 +542,7 @@ img {
 
 .values__container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 12px;
@@ -553,10 +553,12 @@ img {
 .values__row {
   display: flex;
   justify-content: space-between;
+  flex-direction: row;
   align-items: center;
-  width: 100%;
+  width: 60%;
   max-width: 1280px;
-  margin: 0 auto;
+  margin-left: 32px;
+  padding: 32px 64px 32px 0;
 }
 
 .values__description {
@@ -564,10 +566,8 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 60%;
   max-width: 567px;
-  text-align: left;
-  padding: 12px;
   margin-right: 64px;
   text-wrap: wrap;
   border-style: none;
@@ -599,14 +599,16 @@ img {
 
 .values__list {
   display: flex;
+  flex-direction: row;
   gap: 24px;
   justify-content: center;
   align-items: center;
+  padding-top: 24px;
+  max-width: none;
 }
 
 .value {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 12px;
@@ -616,7 +618,7 @@ img {
 }
 
 .value__img--wrapper {
-  width: 50%;
+  width: 40%;
   border-radius: 4px;
   border: 1px solid rgb(229, 231, 235);
   display: flex;
@@ -634,9 +636,13 @@ img {
   position: relative;
 }
 
-.values__img,
-.value__img {
+.values__img {
   width: 50%;
+}
+
+.value__img {
+  width:20px;
+  height: 20px;
 }
 
 .value__wrapper {
@@ -648,4 +654,10 @@ img {
   padding: 24px;
   border: 1px solid rgb(229, 231, 235);
   border-radius: 4px;
+}
+
+.value__name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 12px;
 }
