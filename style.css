@@ -7,6 +7,17 @@
   font-family: "Roboto", sans-serif;
   color: #243e63;
 }
+
+footer {
+  padding: 96px 32px;
+  background-color: rgb(100, 21, 255);
+  margin-bottom: -32px;
+  position: relative;
+  overflow: hidden;
+  height: 500px;
+}
+
+
 /* #landing section */
 
 nav {
@@ -869,8 +880,7 @@ img {
   gap: 16px;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-left: 0 auto;
-  margin-right: 0 auto;
+  margin: 0 auto;
 }
 
 .testimonials__img {
@@ -963,31 +973,32 @@ img {
 
 /* START SECTION */
 
+.start {
+  position: relative;
+  overflow: hidden;
+}
+
 .start__container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 64px 0;
-  background-color: #f9fafb;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+ padding: 96px 0;
 }
 
 .start__row {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 16px;
-  flex-wrap: wrap;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
 .start__title {
-  font-size: 48px;
-  font-weight: 900;
-  color: rgb(36, 62, 99);
+  font-size: 30px;
+  font-weight: 700;
+  color: #f7fafc;
+  line-height: 1.5;
   text-align: center;
   margin-bottom: 16px;
+  z-index: 2;
+  width: 50%;
 }
 
 .start__description {
@@ -998,26 +1009,45 @@ img {
   margin-bottom: 32px;
 }
 
+.start__buttons {
+ display: flex;
+ justify-content: flex-end;
+ width: 50%;
+}
+
+.start__button:nth-child(1) {
+  margin-right: 32px;
+  background: #f56565;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0.01) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  transition: all 300ms ease;  
+}
+
+.start__button:nth-child(2) {
+  border: 1px solid rgb(160, 174, 192);
+  transition: all 300ms ease;
+  background: #6415ff;
+}
+
 .start__button {
-  background-color: #6415ff;
-  padding: 12px 24px;
+  padding: 20px 40px;
   border: none;
   border-radius: 500px;
   font-size: 16px;
-  color: #fff;
-  font-weight: bold;
-  transition: all 300ms ease;
-  cursor: pointer;
+  color: #f7fafc;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 1px;
+  z-index: 2;
 }
+
 .start__button:hover {
   background-color: #4b0fc4;
 }
 
 .start__content {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  text-align: center;
   justify-content: center;
   background-color: rgb(100, 21, 255);
   padding: 96px 0;
@@ -1028,6 +1058,7 @@ img {
 .start__content--row {
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 0 32px;
   width: 100%;
   margin: 0 auto;
@@ -1035,29 +1066,28 @@ img {
 }
 
 .start__blob--1 {
-  display: flex;
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100px;
-  height: 100px;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
+  bottom: 0px;
+  left: 0px;
+  height: 20rem;
+  width: 20rem;
+  background-color: rgb(80, 17, 204);
   opacity: 0.5;
+  border-radius: 50%;
   transform: translate(-5rem, 8rem);
 }
 
 .start__blob--2 {
   display: flex;
   position: absolute;
-  top: 0;
-  right: 0;
-  width: 100px;
-  height: 100px;
-  background-color: rgba(255, 255, 255, 0.1);
+  top: 0px;
+  right: 0px;
+  width: 20rem;
+  height: 20rem;
+  background-color: rgb(80, 17, 204);
   border-radius: 50%;
   opacity: 0.5;
-  transform: translate(5rem, 8rem);
+  transform: translate(5rem, 16rem);
 }
 
 /* FOOTER */
@@ -1074,104 +1104,63 @@ img {
   margin-right: auto;
 }
 
-.footer__row {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 16px;
-  flex-wrap: wrap;
-}
-
-.footer__title {
-  font-size: 24px;
-  font-weight: 900;
-  color: #fff;
-  text-align: center;
-  margin-bottom: 16px;
-}
-
-.footer__description {
-  font-size: 16px;
-  color: #cbd5e0;
-  text-align: center;
-  max-width: 600px;
-  margin-bottom: 32px;
-}
-
-.footer__link {
-  font-size: 16px;
-  color: #cbd5e0;
-  text-decoration: none;
-  margin: 0 8px;
-  transition: color 300ms ease;
-}
-
-.footer__link:hover {
-  color: #fff;
-} 
-
 .footer__blob--1 {
-  display: flex;
   position: absolute;
-  bottom: 0;
+  top: 0;
   left: 0;
-  width: 100px;
-  height: 100px;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
+  width: 320px;
+  height: 320px;
   opacity: 0.5;
-  transform: translate(-5rem, -8rem);
+  transform: translateX(-80px) translateY(-128px);
+  z-index: 1;
 }
 
 .footer__blob--2 {
-  display: flex;
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 100px;
-  height: 100px;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
+  width: 320px;
+  height: 320px;
   opacity: 0.5;
-  transform: translate(5rem, -8rem);
+  transform: translateX(128px) translateY(192px);
+  z-index: 1;
 }
 
-.row .footer__row {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 16px;
-  flex-wrap: wrap;
+.footer__row {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
 .footer__columns {
+  margin-top: -48px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 16px;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .footer__column {
+  margin-top: 48px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 8px;
+  align-items: flex-start;
+  z-index: 2;
 }
 
-.footer__column-title {
-  font-size: 18px;
+.footer__column--title {
   font-weight: 700;
-  color: #fff;
-  text-align: center;
-  margin-bottom: 8px;
+  color: #f7fafc;
+  line-height: 1.5;
 }
 
-.footer__column-link {
-  font-size: 16px;
-  color: #cbd5e0;
-  text-decoration: none;
-  margin: 0 8px;
-  transition: color 300ms ease;
+.footer__column--link {
+  font-size: 14px;
+  color: #f7fafc;
+  line-height: 1.5;
+  font-weight: 500;
+  margin-top: 12px;
+  position: relative;
+  cursor: pointer;
 }
 
 .footer__column-link:hover {
@@ -1180,9 +1169,9 @@ img {
 
 .footer__divider {
   width: 100%;
-  height: 1px;
-  background-color: rgba(255, 255, 255, 0.1);
-  margin: 32px 0;
+  height: 2px;
+  background-color: rgb(116, 44, 255);
+  margin: 64px 0;
 }
 
 .footer__bottom {
