@@ -1202,8 +1202,8 @@ img {
 }
 
 .footer__copyright {
- font-weight: 500;
- color: #cbd5e0;
+  font-weight: 500;
+  color: #cbd5e0;
 }
 
 .footer__socials {
@@ -1224,6 +1224,10 @@ img {
   cursor: pointer;
 }
 
-.footer__socials--link:hover {
-  color: #fff;
+.footer__socials--link svg {
+  width: 16px;
+  height: 16px;
+  fill: #6415ff;
 }
+
+
