@@ -17,7 +17,6 @@ footer {
   height: 500px;
 }
 
-
 /* #landing section */
 
 nav {
@@ -979,7 +978,7 @@ img {
 }
 
 .start__container {
- padding: 96px 0;
+  padding: 96px 0;
 }
 
 .start__row {
@@ -1010,17 +1009,20 @@ img {
 }
 
 .start__buttons {
- display: flex;
- justify-content: flex-end;
- width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
 }
 
 .start__button:nth-child(1) {
   margin-right: 32px;
   background: #f56565;
-  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 0px 0px 0px 0px,
-    rgba(0, 0, 0, 0.01) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
-  transition: all 300ms ease;  
+  box-shadow:
+    0px 0px 0px 0px rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0.01) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  transition: all 300ms ease;
 }
 
 .start__button:nth-child(2) {
@@ -1176,51 +1178,52 @@ img {
 
 .footer__bottom {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 16px;
-  margin-top: 32px;
+  margin-top: 64px;
 }
 
 .footer__logo {
-  width: 120px;
-  height: auto;
-  margin-right: 16px;
+  display: flex;
+  align-items: center;
 }
 
 .footer__logo--img {
-  width: 100%;
-  height: auto;
+  width: 32px;
+  height: 32px;
 }
 
 .footer__logo--text {
-  font-size: 16px;
-  color: #cbd5e0;
-  text-align: center;
+  font-size: 20px;
+  color: #f7fafc;
+  font-weight: 900;
+  margin-left: 8px;
+  letter-spacing: 0.05em;
 }
 
 .footer__copyright {
-  font-size: 14px;
-  color: #cbd5e0;
-  text-align: center;
-  margin-top: 16px;
+ font-weight: 500;
+ color: #cbd5e0;
 }
 
 .footer__socials {
   display: flex;
-  justify-content: center;
-  gap: 16px;
+  align-items: center;
+  margin-left: -16px;
 }
 
 .footer__socials--link {
-  font-size: 16px;
-  color: #cbd5e0;
-  text-decoration: none;
-  margin: 0 8px;
-  transition: color 300ms ease;
-  width: 25%;
+  display: flex;
+  justify-content: center;
+  background: #f7fafc;
+  border-radius: 50%;
+  margin-left: 16px;
+  padding: 8px;
+  z-index: 2;
+  transition: all 300ms ease;
+  cursor: pointer;
 }
+
 .footer__socials--link:hover {
   color: #fff;
 }
