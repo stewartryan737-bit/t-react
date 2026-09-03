@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Treact</title>
+    
     <link rel="stylesheet" href="style.css" />
     <script
       src="https://kit.fontawesome.com/258831ddfd.js"
@@ -30,6 +31,25 @@
             <a href="#ContactUs" class="nav__link">Contact Us</a>
             <a href="#Login" class="nav__link">Login</a>
             <a href="#SignUp" class="nav__link--primary">Sign Up</a>
+        <button class="btn__menu" onclick="openMenu()">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="menu__backdrop">
+          <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+            <i class="fas fa-times"></i>
+          </button>
+          <ul class="menu__links">
+            <li class="menu__list">
+              <a href="#" class="menu__link" onclick="closeMenu()">Home</a>
+            </li>
+             <li class="menu__list">
+              <a href="#featured" class="menu__link" onclick="closeMenu()">Books</a>
+            </li>
+             <li class="menu__list">
+              <a href="#" class="menu__link no-cursor" onclick="closeMenu()">Contacts</a>
+            </li>
+          </ul>
+       
           </div>
         </div>
       </nav>
