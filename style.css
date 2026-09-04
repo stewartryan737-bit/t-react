@@ -1303,7 +1303,7 @@ img {
   fill: #6415ff;
 }
 
-@media (max-width: 728px) {
+@media (max-width: 768px) {
  
   nav {
   display: flex;
@@ -1311,8 +1311,16 @@ img {
   justify-content: space-between;
 }
 
-  .nav__link {
+ul {
+  display: inline-block;
+  text-align: left;
+  list-style-position: inside;
+}
+
+  .nav__link,
+  .nav__link--primary {
     flex: 1 1 100%;
+    display: none;
   }
 
   .btn__menu {
@@ -1457,5 +1465,31 @@ img {
 
   .footer__column--link {
     font-size: 8px;
+  }
+}
+
+@media (max-width: 500px) {
+  .header__email--input {
+    width: 100%;
+  }
+  .header__email--cta {
+    width: 100%;
+  }
+
+  ul {
+    width: 100%;
+    display: inline;
+    list-style-position: inside;
+    text-align: left;
+  }
+
+   .plan {
+   width: 100%;
+  }
+
+  .plan__price {
+    width: 100%;
+    text-align: center;
+    list-style-position: inside;
   }
 }
