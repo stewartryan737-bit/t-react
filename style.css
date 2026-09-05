@@ -281,7 +281,7 @@ header {
   margin: 12px;
   padding: 12px;
   border: none;
-  border-radius: 8px;
+  border-radius: 500px;
 }
 
 .header__image--wrapper {
@@ -1492,4 +1492,8 @@ ul {
     text-align: center;
     list-style-position: inside;
   }
+}
+
+@media (max-width: 1140px) {
+ 
 }
