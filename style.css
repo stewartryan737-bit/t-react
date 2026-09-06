@@ -1340,8 +1340,6 @@ ul {
   .header__email--input {
     width: 100%;
     max-width: 100%;
-    padding: 12px;
-    margin-bottom: 12px;
   }
 
   .header__email--btn {
@@ -1479,28 +1477,22 @@ ul {
     font-size: 1rem;
   }
 
-  .header__email {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 8px;
-  }
-
-  .headere__email--input {
-    flex: 1;
-    width: auto;
-  }
-  
-  .header__email--btn {
-    width: max-content;
-    white-space: nowrap;
-  }
-
-  ul {
+   ul {
     width: 100%;
     display: inline;
     list-style-position: inside;
     text-align: left;
+  }
+
+  .quality__description {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 12px;
+  }
+
+  .quality__section--tag {
+    font-size: 0.75rem;
   }
 
    .plan {
