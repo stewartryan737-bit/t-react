@@ -262,6 +262,9 @@ header {
   width: 100%;
   padding: 20px 110px 20px 32px;
   box-sizing: border-box;
+  border-radius: 500px;
+  outline: none;
+  border: 2px solid #e2e8f0;
 }
 .header__email--btn {
   position: absolute;
@@ -553,15 +556,10 @@ img {
 
 .steps__grid {
   position: absolute;
-  transform: translateX(50%) translateY(50%) scaleX(1) scaleY(1);
-  opacity: 0.8;
-  z-index: -10;
-  display: block;
+  transform: translateX(-50%) translateY(50%);
   width: 80px;
   height: 80px;
-  --tw-text-opacity: 1;
-  color: rgba(100, 21, 255, var(--tw-text-opacity));
-  right: 0px;
+  left: 50%;
   bottom: 0px;
   fill: rgb(100, 21, 255);
 }
@@ -903,6 +901,28 @@ img {
 
 .plan__button:hover {
   background-color: #4b0fc4;
+}
+
+.plan--business {
+  background: linear-gradient(
+    135deg,
+    rgb(76, 81, 191) 0%,
+    rgb(102, 126, 234) 100%
+  );
+}
+
+.plan--business .plan__title,
+.plan--business .plan__price,
+.plan--business .plan__duration,
+.plan--business .plan__target,
+.plan--business li {
+  color: white;
+}
+
+
+.plan--business .plan__button {
+  background-color: white;
+  color: #6415ff;
 }
 
 .plans__blob {
